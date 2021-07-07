@@ -1,0 +1,20 @@
+.div1{background:LightSkyBlue;
+grid-column: 1 / 7;}
+.div2{background:LightSalmon;}
+.div3{background:PaleTurquoise;}
+.div4{background:LightPink;}
+.div5{background:PaleGreen;}
+.div6{background:darkgoldenrod;}
+
+.container {
+    display: grid;
+    font-size: 20px;
+    color: rgb(130, 10, 10);
+ /*    grid-template: "a a a"
+                   "b b b"
+                   "c c c";*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-column: 1 / 3;
+
+}
