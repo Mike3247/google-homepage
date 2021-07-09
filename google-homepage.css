@@ -1,5 +1,14 @@
-.div1{background:LightSkyBlue;
+
+.containerdiv.1.2{background:LightSkyBlue;
+    grid-column: 1 / 7;}
+
+.div.1.2.1{background:LightSkyBlue;
 grid-column: 1 / 7;}
+
+.div.1.2.2{background:LightSkyBlue;
+    grid-column: 1 / 7;}
+
+
 
 .div2{background:LightSalmon;
 grid-column: 1 / 7;
