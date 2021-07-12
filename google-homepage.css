@@ -1,4 +1,4 @@
-.container {
+.containerdiv-1 {
     display: grid;
     font-size: 20px;
     color: rgb(130, 10, 10);
@@ -9,12 +9,12 @@
     display: grid;
     font-size: 20px;
     color: rgb(130, 10, 10);
-    gap: 20px;
     grid-template-columns: 1fr 1fr;}
 
 .div-1-2-1{background:LightSkyBlue;
     grid-area: 1/1/2/2;
-    justify-self: start;    
+    justify-self: start;
+    gap: 50px;    
 }
 
 .div-1-2-2{background:LightSkyBlue;
@@ -26,23 +26,25 @@
 
 .div2{background:LightSalmon;
 grid-column: 1 / 7;
-justify-self: center;}
+text-align:center;}
 
 .div3{background:PaleTurquoise;
 grid-column: 1 / 7;
-justify-self: center;}
+text-align: center;}
 
 .div4{background:LightPink;
 grid-column: 1 / 7;
-justify-self: center;}
+text-align: center;}
 
 .div5{background:PaleGreen;
 grid-column: 1 / 7;
-justify-self: center;}
+text-align: center;}
 
 .div6{background:darkgoldenrod;
-grid-column: 1 / 7;}
+grid-column: 1 / 7;
+text-align: center;}
 
 .div7{background:darkgoldenrod;
-grid-column: 1 / 7;}
+grid-column: 1 / 7;
+text-align: center;}
 
