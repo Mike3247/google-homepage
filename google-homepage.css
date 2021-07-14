@@ -5,46 +5,62 @@
     gap: 20px;
     grid-template-rows: auto auto auto auto auto auto auto;
 }
-.containerdiv-1-2{background:LightSkyBlue;
+.containerdiv-1-2{
+    background:LightSkyBlue;
     display: grid;
     font-size: 20px;
     color: rgb(130, 10, 10);
-    grid-template-columns: 1fr 1fr;}
+    grid-template-columns: 1fr 1fr;
+}
 
-.div-1-2-1{background:LightSkyBlue;
+.div-1-2-1{
+    background:LightSkyBlue;
     grid-area: 1/1/2/2;
     justify-self: start;
     gap: 50px;    
 }
 
-.div-1-2-2{background:LightSkyBlue;
+.div-1-2-2{
+    background:LightSkyBlue;
     grid-row: 2/2/3/3;
     justify-self: end;
 }
 
 
 
-.div2{background:LightSalmon;
-grid-column: 1 / 7;
-text-align:center;}
+.div2{
+    background:LightSalmon;
+    grid-column: 1 / 7;
+    text-align:center;
+}
 
-.div3{background:PaleTurquoise;
-grid-column: 1 / 7;
-text-align: center;}
+.div3{
+    background:PaleTurquoise;
+    grid-column: 1 / 7;
+    text-align: center;
+}
 
-.div4{background:LightPink;
-grid-column: 1 / 7;
-text-align: center;}
+.div4{
+    background:LightPink;
+    grid-column: 1 / 7;
+    text-align: center;
+}
 
-.div5{background:PaleGreen;
-grid-column: 1 / 7;
-text-align: center;}
+.div5{
+    background:PaleGreen;
+    grid-column: 1 / 7;
+    text-align: center;
+}
 
-.div6{background:darkgoldenrod;
-grid-column: 1 / 7;
-text-align: center;}
+.div6{
+    background:darkgoldenrod;
+    grid-column: 1 / 7;
+    text-align: center;
+}
 
-.div7{background:darkgoldenrod;
-grid-column: 1 / 7;
-text-align: center;}
+.div7{
+    background:darkgoldenrod;
+    grid-column: 1 / 7;
+    text-align: center;
+}
 
