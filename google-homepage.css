@@ -3,14 +3,31 @@
     font-size: 20px;
     color: rgb(130, 10, 10);
     gap: 20px;
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.div1{
+ul{
     background:LightSkyBlue;
     font-size: 20px;
     color: rgb(130, 10, 10);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
+li{
+    display: inline;
+    float: left;
+    padding: 8px;
+}
+
+.right-float{
+    float: right;
+}
+
+.left-float{
+    float: left;
+}
 
 .div2{
     background:LightSalmon;
