@@ -3,7 +3,7 @@
     font-size: 20px;
     color: rgb(130, 10, 10);
     gap: 20px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -11,8 +11,7 @@
     background:LightSkyBlue;
     font-size: 100%;
     color: rgb(130, 10, 10);
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 1 / 7;
 }
 
 .nav1 li{
