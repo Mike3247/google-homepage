@@ -7,20 +7,20 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.nav1{
+.div1{
     background:LightSkyBlue;
     font-size: 100%;
     color: rgb(130, 10, 10);
     grid-column: 1 / 7;
 }
 
-.nav1 li{
+.div1 li{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
-.nav1 li a{
+.div1 li a{
     padding: 14px 16px;
 }
 
@@ -62,12 +62,18 @@
 .div6{
     background:darkgoldenrod;
     grid-column: 1 / 7;
-    text-align: center;
+    text-align: left;
 }
 
 .div7{
     background:darkgoldenrod;
     grid-column: 1 / 7;
     text-align: center;
+}
+
+.div7 li{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
 }
 
