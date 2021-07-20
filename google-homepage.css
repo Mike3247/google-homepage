@@ -1,16 +1,16 @@
 .containerdiv-1 {
     display: grid;
     font-size: 20px;
-    color: rgb(130, 10, 10);
+    /*color: rgb(130, 10, 10);*/
     gap: 20px;
     grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-columns: 1fr 1fr;
 }
 
 .div1{
-    background:LightSkyBlue;
+   /* background:LightSkyBlue;*/
     font-size: 100%;
-    color: rgb(130, 10, 10);
+    /* color: rgb(130, 10, 10);*/
     grid-column: 1 / 7;
 }
 
@@ -33,19 +33,19 @@
 }
 
 .div2{
-    background:LightSalmon;
+    /*background:LightSalmon;*/
     grid-column: 1 / 7;
     text-align:center;
 }
 
 .div3{
-    background:PaleTurquoise;
+    /*background:PaleTurquoise;*/
     grid-column: 1 / 7;
     text-align: center;
 }
 
 .div4{
-    background:LightPink;
+    /*background:LightPink;*/
     grid-column: 1 / 7;
     text-align: center;
 }
@@ -54,19 +54,19 @@
     }
 
 .div5{
-    background:PaleGreen;
+    /*background:PaleGreen;*/
     grid-column: 1 / 7;
     text-align: center;
 }
 
 .div6{
-    background:darkgoldenrod;
+    /*background:darkgoldenrod;*/
     grid-column: 1 / 7;
     text-align: left;
 }
 
 .div7{
-    background:darkgoldenrod;
+    /*background:darkgoldenrod;*/
     grid-column: 1 / 7;
     text-align: center;
 }
