@@ -2,9 +2,10 @@
     display: grid;
     font-size: 20px;
     /*color: rgb(130, 10, 10);*/
-    gap: 20px;
     grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-columns: 1fr 1fr;
+    height: 100%;
+    gap:20px;
 }
 
 .div1{
@@ -60,13 +61,13 @@
 }
 
 .div6{
-    /*background:darkgoldenrod;*/
+    background: lightgray;
     grid-column: 1 / 7;
     text-align: left;
 }
 
 .div7{
-    /*background:darkgoldenrod;*/
+    background: lightgray;
     grid-column: 1 / 7;
     text-align: center;
 }
